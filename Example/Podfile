@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'VMWebService_Example' do
+  pod 'VMWebService', :path => '../'
+
+  target 'VMWebService_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
+platform :ios, '13.0'

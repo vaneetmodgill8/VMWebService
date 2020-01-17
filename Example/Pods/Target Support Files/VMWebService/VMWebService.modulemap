@@ -1,0 +1,6 @@
+framework module VMWebService {
+  umbrella header "VMWebService-umbrella.h"
+
+  export *
+  module * { export * }
+}

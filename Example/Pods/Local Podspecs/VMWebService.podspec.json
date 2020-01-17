@@ -1,0 +1,22 @@
+{
+  "name": "VMWebService",
+  "version": "0.1.0",
+  "summary": "A short description of VMWebService.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/vaneetmodgill@gmail.com/VMWebService",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "vaneetmodgill@gmail.com": "vaneet.modgill@sdnaglobal.com"
+  },
+  "source": {
+    "git": "https://github.com/vaneetmodgill@gmail.com/VMWebService.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "VMWebService/Classes/**/*"
+}
