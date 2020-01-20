@@ -22,7 +22,7 @@ pod 'VMWebService'
 
 ## Author
 
-vaneetmodgill@gmail.com, vaneet.modgill@sdnaglobal.com
+vaneetmodgill@gmail.com
 
 ## License
 
