@@ -8,16 +8,19 @@
 
 Pod::Spec.new do |s|
   s.name             = 'VMWebService'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'A general WebService architecture for iOS / Swift.'
-  s.homepage         = 'https://github.com/vaneetmodgill@gmail.com/VMWebService'
+  
+  
+  s.homepage         = 'https://github.com/vaneetmodgill8/VMWebService'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { "Vaneet" => "vaneetmodgill@gmail.com" }
+  s.author           = { 'Vaneet' => 'vaneetmodgill@gmail.com' }
   
-  spec.ios.deployment_target = "10.0"
-   spec.swift_version = "4.2"
   
-  s.source           = { :git => 'https://github.com/vaneetmodgill@gmail.com/VMWebService.git', :tag => s.version.to_s }
+  s.ios.deployment_target = '10.0'
+  s.swift_version = '4.2'
+  
+  s.source           = { :git => 'https://github.com/vaneetmodgill8/VMWebService.git', :tag => "#{s.version}"}
 
-  s.source_files = 'VMWebService/Classes/**/*'
+  s.source_files = 'VMWebService/Classes/**/*.{h,m,swift}'
 end
